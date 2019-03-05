@@ -7,16 +7,15 @@ import Profile from '../components/Profile';
 import ColorGame from '../components/ColorGame';
 import Indecision from '../components/Indecision';
 import XpenseMe from '../components/Xpenseme';
-// import Footer from '../components/Footer';
+import Home from '../components/Home';
 
-// <Footer />
 
 const AppRouter = () => (
   <BrowserRouter>
     <div>
       <Header />
       <Switch>
-        <Route path="/" component={Work} exact={true} />
+        <Route path="/" component={Home} exact={true} />
         <Route path="/work" component={Work} exact={true}/>
         <Route path="/work/colorgame" component={ColorGame} />
         <Route path="/work/indecision" component={Indecision} />

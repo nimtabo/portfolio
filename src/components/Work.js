@@ -7,17 +7,17 @@ const Work = () => (
     <div className="container--body">
       <Link to="/work/xpenseme">
         <div>
-          <img className="image1" src={'/images/projects/Xpense-meLogin.png'} />
+          <img className="image1" src={'/images/projects/Xpense-meLogin0.png'} />
         </div>
       </Link>
       <Link to="/work/indecision">
         <div>
-          <img className="image0" src={'/images/projects/indecisionDesktop2.png'} />
+          <img className="image0" src={'/images/projects/indecisionDesktop20.png'} />
         </div>
       </Link>
       <Link to="/work/colorgame">
         <div>
-          <img className="image" src={'/images/projects/colorGame.png'} />
+          <img className="image" src={'/images/projects/colorGame0.png'} />
         </div>
       </Link>
     </div>

@@ -1,5 +1,10 @@
-* {
-  background-color: rgb(245, 245, 245);
+body {
+  background: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  font-family: 'Noto Serif', serif;
 }
 
 a {
@@ -7,7 +12,9 @@ a {
 }
 
 html {
-  font-size: 62.5%
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
 }
 
 body {
@@ -25,4 +32,17 @@ button:disabled {
 
 .is-active {
   font-weight: bolder;
+}
+
+.content {
+  padding-top: 25%;
+  text-align: center;
+  color: white;
+  >h1 {
+    font-size: 3em;
+  }
+  >hr {
+    width: 200px;
+    background-color: white;
+  }
 }
