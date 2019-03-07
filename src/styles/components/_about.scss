@@ -7,12 +7,25 @@
   background: #d2d7d8;
   background-position: center;
   background-size: cover;
-  padding-top: 20%;
+  padding-top: 18%;
   padding-bottom: 10%;
   text-align: center;
   >p {
     font-size: 2rem;
   }
+  @media (max-width: 768px) {
+    background-position: center;
+    background-size: cover;
+    padding-top: 9%;
+    padding-bottom: 4%;
+    text-align: center;
+  }
+}
+
+#info-side:hover {
+  transition: .3s ease;
+  font-weight: bolder;
+  opacity: .7;
 }
 
 #image-side {
@@ -23,5 +36,18 @@
   background-size: cover;
   padding-top: 20%;
   padding-bottom: 25%;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Noto Serif, serif';
+  @media (max-width: 768px) {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35%;
+    // padding-bottom: 5%;
+
+  }
+}
+
+#image-side:hover {
+  transition: .3s ease-out;
+  opacity: .8;
 }

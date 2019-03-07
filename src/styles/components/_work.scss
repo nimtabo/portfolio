@@ -1,0 +1,28 @@
+.project {
+  background: rgba(0,200,200,.20);
+  background-position: center;
+  background-size: cover;
+  border-radius: 3rem;
+  color: #b5c5dd;
+  font-size: 1.8em;
+  font-family: 'Noto Serif, serif';
+  font-weight: 700;
+  margin: 2rem 0;
+  height: 40vh;
+  text-align: center;
+  >p >span {
+    color: #64ce33;
+    font-weight: 700;
+    font-size: 1.6em;
+  }
+  @media (min-width: 768px) {
+    height: 60vh;
+    padding-top: 10%;
+  }
+}
+
+.project:hover{
+  transition: .3s ease-in;
+  background: rgba(0,0,255,.25);
+  color: white;
+}

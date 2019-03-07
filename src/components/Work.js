@@ -4,22 +4,21 @@ import { Link } from 'react-router-dom';
 
 const Work = () => (
   <div className="container">
-    <div className="container--body">
-      <Link to="/work/xpenseme">
-        <div>
-          <img className="image1" src={'/images/projects/Xpense-meLogin0.png'} />
-        </div>
-      </Link>
-      <Link to="/work/indecision">
-        <div>
-          <img className="image0" src={'/images/projects/indecisionDesktop20.png'} />
-        </div>
-      </Link>
-      <Link to="/work/colorgame">
-        <div>
-          <img className="image" src={'/images/projects/colorGame0.png'} />
-        </div>
-      </Link>
+    <div className="row">
+      <div className="col-lg-5 col-md-5 col-sm-12 project">
+        <p>Do you know how much you throw on every little things?</p>
+        <p>Do you think it's little?</p>
+        <p><span>Xpense-me</span> will surprise you.</p>
+        <Link className="btn btn-success btn-lg" to="/work/xpenseme">Learn more</Link>
+      </div>
+
+      <div className="col-lg-2 col-md-1 col-sm-12"></div>
+
+      <div className="col-lg-5 col-md-5 col-sm-12 project">
+        <p>You got tight schedule? no problen...!</p>
+        <p><span>Indecision</span> got you covered</p>
+        <Link className="btn btn-success btn-lg" to="/work/indecision">Learn more</Link>
+      </div>
     </div>
   </div>
 );

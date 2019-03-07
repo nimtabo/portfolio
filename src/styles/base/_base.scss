@@ -35,7 +35,7 @@ button:disabled {
 }
 
 .content {
-  padding-top: 25%;
+  padding-top: 15%;
   text-align: center;
   color: white;
   >h1 {
@@ -45,4 +45,11 @@ button:disabled {
     width: 200px;
     background-color: white;
   }
+}
+
+h1:hover, h2:hover {
+  display: inline;
+  transition: .3s ease-in-out;
+  color: #b5c5dd;
+  font-weight: bolder;
 }
