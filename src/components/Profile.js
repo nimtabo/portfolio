@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const linkedin = 'www.linkedin.com/in/nicholas-mtabo-82743170';
+const linkedin = 'https://linkedin.com/in/nicholas-mtabo-82743170';
 const github = 'https://github.com/nimtabo';
 const mail = "mailto:nicholasmtabo@yahoo.com";
 const mobileNo = "callto:+254704643061";
