@@ -6,9 +6,8 @@ const Work = () => (
   <div className="container">
     <div className="row">
       <div className="col-lg-5 col-md-5 col-sm-12 project">
-        <p>Do you know how much you throw on every little things?</p>
-        <p>Do you think it's little?</p>
-        <p><span>Xpense-me</span> will surprise you.</p>
+        <p>Do you want to take control on every expenditure you making?</p>
+        <p><span>Xpense-me</span> got you covered.</p>
         <Link className="btn btn-success btn-lg" to="/work/xpenseme">Learn more</Link>
       </div>
 

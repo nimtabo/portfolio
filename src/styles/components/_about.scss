@@ -10,8 +10,9 @@
   padding-top: 18%;
   padding-bottom: 10%;
   text-align: center;
+  word-wrap: break-word;
   >p {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   @media (max-width: 768px) {
     background-position: center;
@@ -19,13 +20,17 @@
     padding-top: 9%;
     padding-bottom: 4%;
     text-align: center;
+    word-wrap: break-word;
   }
 }
 
 #info-side:hover {
   transition: .3s ease;
-  font-weight: bolder;
+  font-weight: 600;
   opacity: .7;
+  >strong {
+    color: blue;
+  }
 }
 
 #image-side {
